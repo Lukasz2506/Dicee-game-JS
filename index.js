@@ -15,7 +15,7 @@ console.log(typeof(randomNumber1));
 console.log(typeof(randomNumber1));
 
 
-var imageLeft = "./images/dice" + randomNumber1 + ".png";
+var imageLeft = "./dice" + randomNumber1 + ".png";
 var imgLeftObject = document.getElementsByClassName("img1")[0];
 imgLeftObject.setAttribute("src",imageLeft);
 
@@ -29,7 +29,7 @@ var randomValue2 = Math.random();
 var randomNumber2 = Math.floor(randomValue2 * 6 + 1);
 //var randomNumber2 = randomNumber2.toString();
 console.log(randomNumber2)
-var imageRight = "./images/dice" + randomNumber2 + ".png";
+var imageRight = "./dice" + randomNumber2 + ".png";
 var imageRightObject = document.querySelector(".img2");
 imageRightObject.setAttribute("src", imageRight);
 
