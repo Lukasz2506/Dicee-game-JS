@@ -1,3 +1,5 @@
+
+
 //Create left dice:
 
 var randomValue1 = Math.random();
