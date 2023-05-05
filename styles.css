@@ -20,8 +20,6 @@ h1 {
   text-shadow: 5px 0 #232931;
   font-size: 8rem;
   color: #4ECCA3;
-  display: inline-block;
-  position: relative;
   bottom: 35px;
   padding-left: 5%;
 }
@@ -32,14 +30,9 @@ p {
   font-family: 'Indie Flower', cursive;
 }
 
-.heading > img {
-  width: 30%;
-}
-
 .dice > img {
   width: 80%;
 }
-
 
 footer {
   margin-top: 5%;
